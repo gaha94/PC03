@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #ring {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #ring li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  #ring li.active {
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
